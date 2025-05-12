@@ -26,6 +26,7 @@ html{
 body{
     background: var(--bg-color);
     color: var(--text-color);
+    overflow-x: hidden;
 }
 
 section{
@@ -84,7 +85,6 @@ section{
 
 .home-img img {
     width: 35vw;
-    align-items: center;
     animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -173,14 +173,6 @@ span{
 .heading{
     text-align: center;
     font-size: 4.5rem;
-}
-
-.about-img img{
-    width: 35vw;
-    border-radius: 2rem;
-    padding: 3.6rem;
-    image-resolution: 100%;
-    margin-top: -370px;
 }
 
 .about-content h2{
@@ -385,15 +377,6 @@ span{
         flex-direction: column-reverse;
     }
 
-    .about img {
-        width: 70vw;
-        margin-top: 4rem;
-        padding-left: -400px;
-        image-resolution: 100%;
-        margin-top: -48%;
-        margin-left: -20%;
-    }
-
     .services h2{
         margin-bottom: 3rem;
     }
@@ -411,10 +394,6 @@ span{
 
 @media(max-width: 365px) {
     .home-img img {
-        width: 90vw;
-    }
-
-    .about-img img {
         width: 90vw;
     }
 
